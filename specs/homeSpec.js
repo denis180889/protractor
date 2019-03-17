@@ -6,7 +6,7 @@ describe('Home page', function () {
     var homePage;
 
     beforeEach(async function () {
-        homePage = await new Home();
+        homePage = new Home();
         await browser.get(testData.url);
     });
 

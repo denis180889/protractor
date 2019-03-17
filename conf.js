@@ -6,10 +6,11 @@ exports.config = {
     './specs/homeSpec.js'],
   SELENIUM_PROMISE_MANAGER: false,
   restartBrowserBetweenTests: true,
+  directConnect: true,
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
-      args: ["--headless",
+      args: [//"--headless",
         "--disable-gpu", "--window-size=1024,768"]
     }
   },

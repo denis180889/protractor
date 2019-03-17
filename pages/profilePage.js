@@ -1,4 +1,4 @@
-var ProfilePage = function async () {
+var ProfilePage = function() {
 
     var name = element(by.cssContainingText('form .item', 'Name')).$('.description');
     var email = element(by.cssContainingText('form .item', 'Email')).$('.description');

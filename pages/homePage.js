@@ -1,4 +1,4 @@
-var HomePage = function async() {
+var HomePage = function() {
   var loginButton = $('.btn.flat-dark.ng-scope');
 
   var certificates = $$('.ssl-item');

@@ -1,4 +1,4 @@
-var UserDropDown = function async() {
+var UserDropDown = function() {
     var userButton = $('.profile-box a.user-btn');
     var userDropDown = $('.profile-box button.dropdown-btn');
     var logOutButton = $('ul.dropdown.ng-isolate-scope').$('li button');

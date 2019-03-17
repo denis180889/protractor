@@ -11,9 +11,9 @@ describe('Authorization page', function () {
   var EC = protractor.ExpectedConditions;
 
   beforeEach(async function () {
-    homePage = await new Home();
-    loginPage = await new Login();
-    userDropDown = await new UserDropDown();
+    homePage = new Home();
+    loginPage = new Login();
+    userDropDown = new UserDropDown();
 
     await browser.get(testData.url);
   });

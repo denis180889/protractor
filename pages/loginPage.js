@@ -1,4 +1,4 @@
-var LoginPage = function async () {
+var LoginPage = function() {
 
     var showPasswordButton = $('.btn-input.btn-input-block');
     var passwordInput = $('.input-box.password > input');

@@ -12,10 +12,10 @@ describe('My Profile page', function () {
     var userDropDown;
 
     beforeEach(async function () {
-        homePage = await new Home();
-        loginPage = await new Login();
-        profilePage = await new Profile();
-        userDropDown = await new UserDropDown();
+        homePage = new Home();
+        loginPage =  new Login();
+        profilePage = new Profile();
+        userDropDown = new UserDropDown();
 
         await browser.get(testData.url);
     });

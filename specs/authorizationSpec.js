@@ -1,4 +1,4 @@
-var Home = require('../pages/homePage');
+import {HomePage as Home} from '../pages/homePage';
 var Login = require('../pages/loginPage');
 var UserDropDown = require('../pageFragments/userDropDown');
 var testData = require('../testData');

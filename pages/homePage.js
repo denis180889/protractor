@@ -1,4 +1,4 @@
-var HomePage = function() {
+export let HomePage = function() {
   var loginButton = $('.btn.flat-dark.ng-scope');
 
   var certificates = $$('.ssl-item');
@@ -53,4 +53,3 @@ var HomePage = function() {
   };
 
 };
-module.exports = HomePage;
